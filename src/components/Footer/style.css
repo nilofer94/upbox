@@ -1,0 +1,23 @@
+.footer{
+    margin: 100px 35px 30px 35px;
+    background-color: rgb(250,250,250);
+    border: 2px solid #C4C4C4;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media-links svg{
+    margin-left: 15px;
+}
+
+
+/* mobile screens */
+@media only screen and (max-width: 480px) {
+    .footer{
+        padding: 30px 4%;
+    }
+    .social-media-links svg{
+        margin-left: 5px;
+    }
+}

@@ -1,10 +1,17 @@
+This is a ReactJS project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is built in Reactv18 Node v18
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the dependencies included in the project
 
 ### `npm start`
 
