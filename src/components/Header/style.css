@@ -25,8 +25,11 @@
     padding: 10px !important;
     border: 2px solid #000;
     border-radius: 25px ;
+    margin-left: 20px;
 }
-
+.login-button:hover{
+    border:2px solid #000 !important
+}
 .hamburger{
     display: none;
 }
@@ -35,7 +38,7 @@
   }
 
 /* tablet screens */
-@media only screen and (min-width: 480px) and (max-width: 1025px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .navbar{
         margin: 0px 40px;
     }
@@ -49,13 +52,13 @@
         height: 0%;
       }
       .navigation li{
-        padding: 0px 15px;
+        padding: 0px 5px;
      }
 }
 
 
 /* mobile screens */
-@media only screen and (max-width: 480px) {
+@media only screen and  (min-width: 320px) and (max-width: 767px) {
 .navbar{
     margin: 0px;
     padding: 10px 20px;
@@ -100,4 +103,12 @@
 }
 }
 
-
+@media only screen and (min-width: 992px) and (max-width: 1080px) {
+    .navigation li{
+        padding: 0px 5px ;
+    }
+    .login-button{
+        padding: 10px !important;
+        margin-left:5px
+    }
+}

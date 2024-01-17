@@ -18,7 +18,7 @@ return (
          <div className='inner-text'>
          Upbox is the easiest way to look your best without having to hunt for the perfect makeup combination. Our stylists curate the latest trends and send them directly to your door every month.
          </div>
-         <div className='signup-button cursor-pointer'>
+         <div className='signup-button cursor-pointer button'>
          SIGN UP <span> &#62;</span>
          </div>
        </div>
@@ -117,7 +117,7 @@ return (
       </div>
 
 
-<div className='signup-button cursor-pointer'>
+<div className='signup-button cursor-pointer button'>
     TRY IT FOR YOURSELF <span> &#62;</span>
 </div>
     </div>

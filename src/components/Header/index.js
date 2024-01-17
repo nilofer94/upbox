@@ -53,7 +53,7 @@ const Header = () => {
             <li>HAIR</li>
             <li>BATH</li>
             <li>SALE</li>
-            <li className='login-button cursor-pointer'>
+            <li className='login-button cursor-pointer button'>
                 LOG IN <span> &#62;</span>
             </li>
             
